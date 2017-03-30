@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: ChildsPlay
+  host: ChildsPlay
+  disk_quota: 1024M
+  services:
+  - ChildsPlay-cloudantNoSQLDB
+  - ChildsPlay-iotf-service
